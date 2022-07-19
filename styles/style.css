@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@500;700&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------
+      navbar
+ -----------------*/
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 87px;
+ }
+ .nav-title{
+    padding-left: 120px;
+ }
+ .anchor{
+    margin-right: 30px;
+ }
+ .anchor, .button{
+    text-decoration: none;
+    padding: 21px;
+ }
+ .fa-cart-arrow-down{
+    margin-right: 34px;
+ }
+ /*---------------------
+    journey influencer
+ ----------------------- */
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .start-journey{
+   width: 582px;
+   height: 270px;
+   margin-top: 130px;
+   margin-left: 100px;
+}
+.journey-title{
+   font-size: 52px;
+}
+.p-margin-buttom{
+   margin-bottom: 5%;
+}
+.preebook{
+   text-decoration: none;
+   background-color: #E02C6D;
+   padding: 10px 24px;
+   border-radius: 41px;
+   color: #FFFFFF;
+}
+ .image{
+   width: 440px;
+   height: 414px;
+    margin-top: 100px;
+    /* margin-left: 57px; */
+    
+ }
+ /* company logo  */
+ hr{
+   color: gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);;
+   width: 1110px;
+ }
+ .logo img{
+    margin-left: 60px;
+ }
+ .logo{
+   margin-top: 100px;
+ }
+ /* popular collecton  */
+ .container-center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 106px;
+ }
+ .popular-head{
+   font-size: 28px;
+ }
+ .container-grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   row-gap: 30px;
+   column-gap: 48px;
+   margin-top: 30px;
+ }
+ .flex-tripod{
+   
+   border-radius: 5px;
+   width: 329px;
+   height: 476px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   padding: 14px;
+ }
+#see-more{
+   color: #E02C6DDE;
+}
+/* <!-- Featured products at one place --> */
+.container-flexible{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   margin-top: 5%;
+   
+}
+.gear-image{
+   width: 40%;
+   height: 20%;
+   margin-left: 10%;
+   
+
+}
+.feature{
+   width: 40%;
+   margin-left: 0%;
+}
+/* footer  */
+footer{
+   padding: 20px;
+   background-color: #0A0826;
+   color: #FFFFFF;
+   
+}
+.center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
